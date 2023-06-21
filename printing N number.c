@@ -15,10 +15,9 @@ void Print(int num)
 {
     if (num==1)
     {
-        printf("%d ", num);
+        printf("%d\n", num);
         return ;
     }
-
-    Print(num-1);
-    printf("%d ", num);
+    Print(num-1); //prin(4),print(3),print(2),print(1)
+    printf("%d ",num);
 }
