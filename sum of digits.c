@@ -9,7 +9,7 @@ int main() {
     return 0;
 }
 int AddDigits(int num) {
-    if (num <= 0) {
+    if (num == 0) {
         return num;
     }
     return AddDigits(num/10)+(num%10);
